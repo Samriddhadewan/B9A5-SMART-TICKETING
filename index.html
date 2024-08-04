@@ -9,30 +9,14 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header >
-        <nav class="container mx-auto border " >
+    <header class="container mx-auto" >
+        <nav class="" >
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M4 6h16M4 12h8m-8 6h16" />
-                      </svg>
-                    </div>
-                  </div>
                   <a class="btn btn-ghost text-3xl">P-Ticket</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1 text-base text-[#030712B2] gap-2">
+                  <ul class="menu menu-horizontal px-1 text-base text-[#030712B2] gap-7">
                     <li>Home</li>
                     <li>About</li>
                     <li>Destination</li>
@@ -47,8 +31,12 @@
               </div>
         </nav>
         <!-- banner section starts here  -->
-         <section class="banner-section border border-green-400 h-[60vh] bg-no-repeat bg-center bg-[url('images/banner.png')]">
-
+         <section class="banner-section border border-green-400 h-[70vh] bg-no-repeat bg-center bg-cover bg-[url('images/banner.png')]">
+          <div class="flex flex-col h-full gap-4 justify-center items-center text-center text-white">
+            <h1 class="text-6xl font-extrabold  text-center">End-to-End Travel with <br> <span class="text-[#1DD100]">P Paribahan</span></h1>
+            <p class="text-lg text-[#030712B2] ">Yes, you can run unit tests and view the <br> results directly within the app. The integrated testing features allow for a streamlined .</p>
+            <button class="bg-[#1DD100] font-bold text-[#030712] px-6 py-3 rounded-lg">Buy Tickets</button>
+          </div>
          </section>
     </header>
     <main>
