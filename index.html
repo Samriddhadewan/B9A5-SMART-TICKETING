@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samrt ticketing</title>
+    <title>Smart ticketing</title>
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="stylesheet" href="style.css">
@@ -31,13 +31,44 @@
               </div>
         </nav>
         <!-- banner section starts here  -->
-         <section class="banner-section border border-green-400 h-[70vh] bg-no-repeat bg-center bg-cover bg-[url('images/banner.png')]">
+         <section class="banner-section relative rounded-3xl h-[70vh] bg-no-repeat bg-center bg-cover bg-[url('images/banner.png')] mt-3">
           <div class="flex flex-col h-full gap-4 justify-center items-center text-center text-white">
             <h1 class="text-6xl font-extrabold  text-center">End-to-End Travel with <br> <span class="text-[#1DD100]">P Paribahan</span></h1>
-            <p class="text-lg text-[#030712B2] ">Yes, you can run unit tests and view the <br> results directly within the app. The integrated testing features allow for a streamlined .</p>
-            <button class="bg-[#1DD100] font-bold text-[#030712] px-6 py-3 rounded-lg">Buy Tickets</button>
+            <p class="text-lg text-[#fff] ">Yes, you can run unit tests and view the <br> results directly within the app. The integrated testing features allow for a streamlined .</p>
+            <button class="bg-[#1DD100] font-bold text-[black] px-6 py-3 rounded-lg">Buy Tickets</button>
           </div>
+          <div class="flex hidden lg:block w-full absolute -bottom-11 justify-center ">
+            <div class="milestones gap-10 flex justify-center">
+              <!-- cart 1  -->
+              <div class="flex gap-4 rounded-3xl bg-white py-6 px-10 border-b-4 border-b-[#1DD100]">
+                <img src="./images/people.png" alt="People Icon" class="w-16 h-16">
+                <div>
+                    <h1 class="text-black font-raleway text-3xl font-bold">500K+</h1>
+                    <p class="text-base text-[#030712B2]">Registered users</p>
+                </div>
+            </div>
+            
+              <!-- cart 2 -->
+              <div class="flex gap-4 rounded-3xl bg-white py-6 px-10 border-b-4 border-b-[#1DD100]">
+                <img src="./images/ticket-cupon.png" alt="People Icon" class="w-16 h-16">
+                <div>
+                    <h1 class="text-black font-raleway text-3xl font-bold">1.7 lacks</h1>
+                    <p class="text-base text-[#030712B2]">Tickets solds</p>
+                </div>
+            </div>
+              <!-- cart 3 -->
+              <div class="flex gap-4 rounded-3xl bg-white py-6 px-10 border-b-4 border-b-[#1DD100]">
+                <img src="./images/stoppage.png" alt="People Icon" class="w-16 h-16">
+                <div>
+                    <h1 class="text-black font-raleway text-3xl font-bold">80K+</h1>
+                    <p class="text-base text-[#030712B2]">Rental partners</p>
+                </div>
+            </div>
+            </div>
+          </div>
+
          </section>
+    
     </header>
     <main>
 
